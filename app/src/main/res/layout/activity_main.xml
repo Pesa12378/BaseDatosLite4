@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Ingrese ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Ingrese Nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Ingrese Edad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Ingrese Direccion"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Ingrese Telefono"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Ingrese Adeudo"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="altaID"
+        android:text="Alta por ID" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="consultaporID"
+        android:text="Consulta por  ID" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="consultaporTelefono"
+        android:text="Consulta por Telefono" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bajaporID"
+        android:text="Baja por ID" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="modificacion"
+        android:text="Modificacion" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="limpiarCampos"
+        android:text="Limpiar campos" />
+
+
+</LinearLayout>
